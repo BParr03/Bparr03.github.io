@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Endangered Animals Project "
+		},
+		{
+			"path": "../Currency Converter"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "../Currency Converter"
+	}
+}
