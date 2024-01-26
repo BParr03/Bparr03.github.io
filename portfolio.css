@@ -48,12 +48,15 @@ body {
     color: white;
     text-decoration: inherit;
     text-align: center;  
-    padding-left: 24.5%;
+    margin-left: 24.5%;
   }
 
   .sidenav-range{
-    height: 75px;
-    display: block;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 10px;
+    justify-content: left;
   }
 
   .sides{
@@ -67,6 +70,7 @@ body {
     text-align: center;
     font-size: 24px;
   }
+
   #JavaScript{
     margin-bottom: 5px;
     border: none;
@@ -199,6 +203,31 @@ img{
     display: block;
   }
 }
+
+.noughts_and_crosses{
+  display: flex;
+  border: #111;
+  border-radius: 3px;
+  border-style: solid;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 750px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 520px) {
+  .noughts_and_crosses {
+    display: block;
+  }
+}
+
+
+
+
+
+
 
 .hotel_bookings{
   display: flex;
