@@ -25,3 +25,24 @@ function topScroll(){
 //     document.getElementById("JavaScript").innerHTML = "img src=img/JS.png";
 
 // }
+
+// Get the modal
+var modal = document.getElementById("modal");
+
+// Get the image and insert it inside the modal
+var img = document.getElementById("image");
+var modalImg = document.getElementById("modalImage");
+
+// Show the modal when the image is clicked
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// Close the modal when the user clicks on <span>
+span.onclick = function() { 
+  modal.style.display = "none";
+}
