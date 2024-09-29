@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.hero-section {
+    -webkit-animation-name: hero-section;
+    -webkit-animation-duration: 2s;
+    animation-name: hero-section;
+    animation-duration: 2s;
+    position: relative;
+  }
+  
+  @-webkit-keyframes hero-section {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes hero-section { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+
+.hero-section-image {
+    padding: 20px 20px 25px;
+}
+
+.hero-section-content {
+    display: flex;
+    padding: 20px 20px 25px;
+}
+
+.hero-section-text {
+    padding: 20px 20px 25px;
+    font-size: 0.9em;
+    max-width: 50%;
+}
