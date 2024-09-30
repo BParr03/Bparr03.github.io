@@ -12,17 +12,17 @@ h3 {
     animation-name: hero-section;
     animation-duration: 2s;
     position: relative;
-  }
+}
   
-  @-webkit-keyframes hero-section {
+@-webkit-keyframes hero-section {
     from { bottom:-100px; opacity:0 } 
     to { bottom:0px; opacity:1 }
-  }
+}
   
-  @keyframes hero-section { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
-  }
+@keyframes hero-section { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
 
 .hero-section-image {
     padding: 20px 20px 25px;
