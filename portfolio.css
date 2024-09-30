@@ -236,6 +236,13 @@ img{
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 520px) {
+  .hotel_bookings {
+    display: block;
+  }
+  
+}
+
 .student_budgets{
   display: flex;
   border: #111;
@@ -250,7 +257,7 @@ img{
 }
 
 @media screen and (max-width: 520px) {
-  .hotel_bookings {
+  .student_budgets {
     display: block;
   }
   
