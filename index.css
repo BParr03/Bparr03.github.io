@@ -40,6 +40,13 @@ h3 {
     max-width: 50%;
 }
 
+.hero-section-text-alternative {
+  display: none;
+  padding: 20px 20px 25px;
+  font-size: 0.9em;
+  max-width: 50%;
+}
+
 @media screen and (max-width: 1375px) and (min-width: 1050px) {
   .hero-section-content {
     flex-wrap: nowrap;
@@ -49,10 +56,14 @@ h3 {
     display: flex;
     width: 500px;
   }
+
+  .hero-section-text-alternative {
+    display: none;
+  }
   
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px) and (min-width: 701px) {
   .hero-section-content {
     flex-wrap: wrap;
     display: flex;
@@ -65,8 +76,62 @@ h3 {
   }
 
   .hero-section-text {
-    width: 750px;
     max-width: 100%;
   }
 
+  .hero-section-text-alternative {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 700px) and (min-width: 451px) {
+  .hero-section-content {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-section-image .hero-image {
+    display: flex;
+    width: 300px;
+  }
+
+  .hero-section-text {
+    display: none;
+  }
+
+  .hero-section-text-alternative {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-section-content {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-section-image .hero-image {
+    display: none;
+  }
+
+  .hero-section-text {
+    display: none;
+  }
+
+  .hero-section-text-alternative {
+    max-width: 100%;
+    display: block;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
 }
