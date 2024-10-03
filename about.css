@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.personal-content {
+    -webkit-animation-name: personal-content;
+    -webkit-animation-duration: 2s;
+    animation-name: personal-content;
+    animation-duration: 2s;
+    position: relative;
+}
+  
+@-webkit-keyframes personal-content {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+}
+  
+@keyframes personal-content { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+.about-content {
+    padding: 20px 20px 25px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+.personal-content {
+    line-height: 2em;
+    
+}

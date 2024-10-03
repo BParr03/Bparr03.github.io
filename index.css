@@ -38,6 +38,7 @@ h3 {
     padding: 20px 20px 25px;
     font-size: 0.9em;
     max-width: 50%;
+    line-height: 2em;
 }
 
 .hero-section-text-alternative {
@@ -60,6 +61,7 @@ h3 {
   .hero-section-text-alternative {
     display: none;
   }
+
   
 }
 

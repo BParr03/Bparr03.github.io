@@ -1,0 +1,38 @@
+  .icon-links {
+    display: flex;
+    gap: 20px; /* Space between the logos */
+  }
+  
+  /* Social logos styling */
+  .github-link .linkedin-link {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .social-logo {
+    width: 50px; /* Adjust the size */
+    height: 50px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  /* Hover effects */
+  .github-link:hover .social-logo,
+  .github-link:focus .social-logo {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+  .linkedin-link:hover .social-logo,
+  .linkedin-link:focus .social-logo {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .github-logo .linkedin-logo{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
