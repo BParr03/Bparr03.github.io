@@ -4,6 +4,7 @@ h1 {
 
 h3 {
     text-align: center;
+    font-size: 1.5em;
 }
 
 .personal-content {
@@ -12,6 +13,7 @@ h3 {
     animation-name: personal-content;
     animation-duration: 2s;
     position: relative;
+    line-height: 2em;
 }
   
 @-webkit-keyframes personal-content {
@@ -30,11 +32,25 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 50%;
     margin: auto;
 }
 
-.personal-content {
-    line-height: 2em;
-    
+@media screen and (max-width: 1200px) {
+    .personal-content {
+        line-height: 1.5em;
+    }
+
+    .about-content {
+    font-size: 0.75em;
+    text-align: left;
+    width: 75%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-content {
+    font-size: 0.6em;
+    text-align: left;
+    }
 }

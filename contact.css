@@ -1,53 +1,66 @@
-  .icon-links {
-    display: flex;
-    flex-direction: row;
-    gap: 20px; /* Space between the logos */
+  h1 {
+    text-align: center;
   }
   
-  /* Social logos styling */
-  .github-link .linkedin-link .email-link{
-    display: inline-block;
-    text-decoration: none;
+  .icon-links {
+    gap: 100px; 
+    display: flex;
+    justify-content: center;
+    padding: 85px 75px 75px;
   }
   
   .social-logo {
-    width: 50px; /* Adjust the size */
-    height: 50px;
+    width: 150px;
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
   
-  /* Hover effects */
   .github-link:hover .social-logo,
   .github-link:focus .social-logo {
-    transform: scale(1.1);
+    transform: scale(1.5);
     opacity: 0.8;
   }
 
   .linkedin-link:hover .social-logo,
   .linkedin-link:focus .social-logo {
-    transform: scale(1.1);
+    transform: scale(1.5);
     opacity: 0.8;
   }
 
   .email-link:hover .social-logo,
   .email-link:focus .social-logo {
-    transform: scale(1.1);
+    transform: scale(1.5);
     opacity: 0.8;
     cursor: pointer;
   }
   
-  /* Responsive design */
-  @media (max-width: 600px) {
-    .github-logo .linkedin-logo{
-      width: 40px;
-      height: 40px;
+  @media screen and (max-width: 700px) and (min-width: 501px) {
+    h1 {
+      font-size: 1.75em;
+    }
+
+    .social-logo{
+      width: 150px;
+    }
+
+    .icon-links {
+      gap: 95px;
+      display: grid;
     }
   }
-  
-  .contact-form {
-    background-color:  #d3d3d3;
+
+ @media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+    padding: 5px;
   }
 
-  .speech-bubble {
-    width: 200px;
+  .social-logo {
+    width: 100px;
   }
+
+  .icon-links {
+    gap: 100px;
+    display: grid;
+  }
+ }
+  

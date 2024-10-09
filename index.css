@@ -138,3 +138,33 @@ h3 {
     font-size: 1em;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .hero-section-content {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-section-image .hero-image {
+    display: none;
+  }
+
+  .hero-section-text {
+    display: none;
+  }
+
+  .hero-section-text-alternative {
+    max-width: 100%;
+    font-size: 0.85em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 0.75em;
+    padding: 5px;
+  }
+}
