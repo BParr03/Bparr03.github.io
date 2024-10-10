@@ -281,11 +281,11 @@ justify-content: center;
 display: flex;
 }
 
-.mail_pic{
+/* .mail_pic{
 max-width: 100%;
 height: auto;
 display: block;
-}
+} */
 
 .mail_text{
   padding: 20px;
