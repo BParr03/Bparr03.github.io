@@ -1,6 +1,18 @@
-.endangered-animals-panel {
+h1 {
+    text-align: center;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    /* gap: 15em; */
+}
+
+
+.endangered-animals-panel, .currency-converter-panel, .calculator-panel, .noughts-crosses-panel, .hotel-bookings-panel, .student-guide-panel {
     width: 500px;
-    background-color: #d8d5d5;
+    /* background-color: #d8d5d5; */
     padding: 20px;
     margin: 0;
     box-shadow: 8px 10px 8px #c4bfbf;
