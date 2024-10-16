@@ -24,6 +24,7 @@ h3 {
     padding: 1em;
     box-shadow: 8px 10px 8px #c4bfbf;
     border-style: groove;
+    line-height: 1.5em;
 }
 
 @keyframes bounceimage {
@@ -47,7 +48,7 @@ h3 {
 }
 
 .panel-image:hover {
-    animation-duration: 0.6s;
+    animation-duration: 0.5s;
     animation-name: bounceimage;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -55,6 +56,5 @@ h3 {
     -webkit-animation-name: bounceimage;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
-    transform: scale(1.5);
 }
 

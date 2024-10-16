@@ -15,20 +15,8 @@
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
   
-  .github-link:hover .social-logo,
-  .github-link:focus .social-logo {
-    transform: scale(1.5);
-    opacity: 0.8;
-  }
-
-  .linkedin-link:hover .social-logo,
-  .linkedin-link:focus .social-logo {
-    transform: scale(1.5);
-    opacity: 0.8;
-  }
-
-  .email-link:hover .social-logo,
-  .email-link:focus .social-logo {
+  .icon-link:hover .social-logo,
+  .icon-link:focus .social-logo {
     transform: scale(1.5);
     opacity: 0.8;
   }
@@ -66,3 +54,34 @@
   }
  }
   
+
+ @keyframes bounceimage {
+  from {
+      transform: translateY(1.25em);
+  }
+
+  to {
+      transform: translateY(-1.25em);
+  }
+}
+
+@-webkit-keyframes bounceimage {
+  from {
+      transform: translateY(20px);
+  }
+
+  to {
+      transform: translateY(-20px);
+  }
+}
+
+.icon-link:hover {
+  animation-duration: 0.5s;
+  animation-name: bounceimage;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-name: bounceimage;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
