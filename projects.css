@@ -18,7 +18,6 @@ h3 {
     padding: 25px 0;
 }
 
-
 .projects-content {
     width: 25%;
     background-color: #ffffff;
@@ -26,3 +25,36 @@ h3 {
     box-shadow: 8px 10px 8px #c4bfbf;
     border-style: groove;
 }
+
+@keyframes bounceimage {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@-webkit-keyframes bounceimage {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.panel-image:hover {
+    animation-duration: 0.6s;
+    animation-name: bounceimage;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-name: bounceimage;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    transform: scale(1.5);
+}
+

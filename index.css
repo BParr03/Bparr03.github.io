@@ -61,9 +61,7 @@ h3 {
 
   .hero-section-text-alternative {
     display: none;
-  }
-
-  
+  }  
 }
 
 @media screen and (max-width: 1050px) and (min-width: 701px) {
@@ -85,7 +83,6 @@ h3 {
   .hero-section-text-alternative {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 700px) and (min-width: 451px) {
