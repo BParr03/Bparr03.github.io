@@ -22,8 +22,8 @@ h3 {
 }
   
 @keyframes personal-content { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
 }
 
 .about-content {
