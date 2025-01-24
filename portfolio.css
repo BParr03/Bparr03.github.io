@@ -260,7 +260,10 @@ img{
   .student_budgets {
     display: block;
   }
-  
+
+  .student_budgets {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 520px) {
