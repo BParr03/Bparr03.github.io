@@ -4,24 +4,25 @@ h1 {
 
 h3 {
     font-size: 1.5em;
+    text-align: center;
 }
 
 .projects {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15em;
+    gap: 15rem;
     width: 100%;
     flex-wrap: wrap;
-    font-size: 0.9em;
+    font-size: 1.35rem;
     margin: 0;
     padding: 25px 0;
 }
 
 .projects-content {
-    width: 25%;
+    width: 30%;
     background-color: #ffffff;
-    padding: 1em;
+    padding: 1rem;
     box-shadow: 8px 10px 8px #c4bfbf;
     border-style: groove;
     line-height: 1.5em;
@@ -52,9 +53,50 @@ h3 {
     animation-name: bounceimage;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    -webkit-animation-duration: 0.6s;
+    -webkit-animation-duration: 0.5s;
     -webkit-animation-name: bounceimage;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
 }
 
+@media screen and (max-width: 1750px) and (min-width: 1350px) {
+
+    .projects-content {
+        width: 35%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1350px) and (min-width: 1000px) {
+
+    .projects-content {
+        width: 50%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 750px) {
+
+    .projects-content {
+        width: 70%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width: 500px) {
+
+    .projects-content {
+        width: 70%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .projects-content {
+        width: 90%;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
