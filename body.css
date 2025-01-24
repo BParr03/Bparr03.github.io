@@ -1,0 +1,9 @@
+body {
+    max-width: 100%;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    margin: 0%;
+    background-color: #fffafa;
+    overflow-x: hidden;
+  }

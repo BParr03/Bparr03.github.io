@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Projects </title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" >
+<link href="portfolio.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" media="(max-width:150px)">
+</head>
+<body>
+    <div id="top"></div>
+
+    <div class="main-page" id="main-page">
+        <body onload="loadup()" style="margin:0;">
+
+    <ul class="navbar">    
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="#projects">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <a class="nav_name" href="index.html">Benjamin Parr</a>
+    </ul>
+     
+   <br> <br style="line-height: 5px" />
+
+
+   <h1>Project Screenshots:</h1>
+
+   <div class="sidenav-range">
+    <div class="sidenav">
+        <div class="sides">Navigate to:</div>
+        <ul>
+        <li><input type="button" id="JavaScript" value="JavaScript" onclick="scrollJS()" ></li>
+        <li><input type="button" id="PHP" value="PHP" onclick="scrollPHP()"></li>
+        <li><input type="button" id="FullStack" value="FullStack" onclick="scrollFullStack()"></li>
+        </ul>
+    </div>
+    </div>
+    
+    <div id="scrollJS">
+    <h2>JavaScript:</h2>
+    <br>
+
+   <div class="screenshots_animals">
+   <h3>Endangered Animals Project: </h3>
+
+   <img src="img/animals.jpg"  alt="screenshot of endangered animals project">
+   <br>
+   <img src="img/filter.jpg"  alt="js filter">
+   <img src="img/filter_working.png"  alt="animal filter working">
+   <img src="img/bird_filter.png" alt="bird filter working">
+   </div>
+   
+   <br>
+
+   <div class="screenshots_currency">
+   <h3>Currency Converter Project: </h3>
+   
+   <img src="img/currency.png" alt="screenshot of currency converter project">
+   <br>
+   <img src="img/currency_zoom.jpg" alt="screenshot of currency converter project zoomed in">
+   <img src="img/currency_conversion.jpg" alt="screenshot of currency converter project working">
+   </div>
+
+   <br>
+
+   <div class="screenshots_calculator">
+    <h3> Mini Calculator Project: </h3>
+    <img src="img/calculator_base.png" alt="screenshot of calculator">
+    <img src="img/calculator_test.png" alt="screenshot of calculator question">
+    <img src="img/calculator_answer.png" alt="screenshot of calculator answer">
+   </div>
+
+   <div class="screenshots_noughtsandcrosses"></div>
+    <h3>Noughts and Crosses: </h3>
+    <img src="img/noughts_and_crosses_board.png" alt="screenshot of noughts and crosses board">
+    <img src="img/noughts_and_crosses_victory.png" alt="screenshot of noughts and crosses victory">
+    <img src="img/noughts_and_crosses_draw.png" alt="screenshot of noughts and crosses draw">
+   </div>
+
+   <div id="scrollPHP"></div>
+<h2>PHP:</h2>
+<br>
+   <div class="screenshots_hotels">
+    <h3>Hotel Bookings Project: </h3>
+    <p>Login Page:</p>
+    <img src="img/hotels_login.png" alt="screenshot of hotel login page">
+    <p>Index Page:</p>
+    <img src="img/hotels_index.png" alt="screenshot of hotel index page">
+    <p>Hotel Search Page:</p>
+    <img src="img/hotels_search_empty.png" alt="screenshot of hotel search page">
+    <img src="img/hotels_search_results.png" alt="screenshot of hotel search page">
+    <p>Create Booking and Booking Confirmation Pages:</p>
+    <img src="img/hotels_create.png" alt="screenshot of hotel create page">
+    <img src="img/hotels_added.png" alt="screenshot of hotel added hotel page">
+    <p>Hotel Details Page:</p>
+    <img src="img/hotels_details.png" alt="screenshot of hotel details page">
+   </div>
+
+   <br>
+
+   <div id="scrollFullStack"></div>
+   <h2>Full-Stack:</h2>
+
+   <br>
+
+   <div class="screenshots_offcampus">
+    <h3> Student Info Project: </h3>
+    <p> Index Page:</p>
+    <img src="img/offcampus_index.png" alt="offcampus project index page">
+    <p> Cocktails Pages: </p>
+    <img src="img/offcampus_cocktails.png" alt="offcampus cocktails page">
+    <img src="img/offcampus_details.png" alt="offcampus cocktails page">
+    <p> Login/Register Pages:</p>
+    <img src="img/offcampus_login.png" alt="login page">
+    <img src="img/offcampus_register.png" alt="register page">
+    <p>Preferences Pages:</p>
+    <img src="img/offcampus_preferences.png" alt="preferences page">
+    <img src="img/offcampus_save.png" alt="saving preferences">
+   </div>
+
+
+
+   <footer>
+    <input type="button" value="Return To The Top" id="scrollTop" onclick="topScroll()">
+    </div>
+    </footer>
+
+    <script>
+        var loadup;
+        
+        function loadup() {
+            loadup = setTimeout(showPage, 500);
+        }
+        
+        function showPage() {
+          document.getElementById("main-page").style.display = "block";
+        }
+        </script>
+        </div>
+<div></div>
+<script src="portfolio.js"></script>
+</body>
