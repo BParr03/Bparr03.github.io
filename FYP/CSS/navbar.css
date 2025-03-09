@@ -7,3 +7,10 @@
     font-size: 0.75em;
     float: left;
   }
+
+.navbar {
+  border-bottom: 0.1rem groove;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
