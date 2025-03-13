@@ -23,3 +23,15 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
 }
+
+.description-container {
+    border-top: 1px solid;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    transform: translateY(-10rem);
+}
