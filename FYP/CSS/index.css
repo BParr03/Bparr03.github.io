@@ -7,21 +7,18 @@ h3 {
     text-align: center;
 }
 
-.product-container {
+.popular-product-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .product {
-    width: fit-content;
     display: inline-flex; 
     margin: 1rem;
-    height: 1rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1rem;
 }
 
 .description-container {
@@ -33,13 +30,27 @@ h3 {
 
 .description {
     margin: 2rem;
+    display: flex;
+    border: 1px solid;
+}
+
+.description img {
+    width: 30rem;
+}
+
+.description-text {
+    padding: 1rem;
+    margin: 1rem;
+    width: 30rem;
 }
 
 .text {
+    display: block;
+    margin: 1rem;
     transform: translateY(-7.5rem);
 }
   
-.img {
-    width: 490px;
-    height: 360px;
+.product img {
+    width: 25rem;
+    height: 25rem;
 }

@@ -1,0 +1,19 @@
+.basket-container {
+    display: grid;
+}
+
+.basket-item {
+    display: flex;
+    height: 13.5rem;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.basket-item-detail {
+    margin: 0.5rem;
+    transform: translateY(-10%);
+}
+
+.basket-item img {
+    width: 15rem;
+}
