@@ -1,5 +1,5 @@
 .footer-container {
-    border-top: 1px solid;
+    border-top: 1px groove;
     text-align: center;
     background-color: #d3d3d3;
     display: flex;
@@ -11,4 +11,5 @@ footer {
     font-size: smaller;
     text-align: center;
     display: block;
+    padding: 1rem;
 }

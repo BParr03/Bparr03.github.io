@@ -26,12 +26,20 @@ h3 {
 
 .description-container {
     border-top: 1px solid;
-    margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.description {
+    margin: 2rem;
+}
+
 .text {
-    transform: translateY(-10rem);
+    transform: translateY(-7.5rem);
+}
+  
+.img {
+    width: 490px;
+    height: 360px;
 }

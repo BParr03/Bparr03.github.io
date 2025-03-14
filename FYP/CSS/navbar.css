@@ -9,7 +9,7 @@
 }
 
 .navbar {
-  border-bottom: 0.1rem groove;
+  border-bottom: 1px groove;
   overflow: hidden;
   display: block;
   width: 100%;
