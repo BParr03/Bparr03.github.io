@@ -1,5 +1,7 @@
 .basket-container {
     display: grid;
+    justify-items: start;
+    justify-content: center;
 }
 
 .basket-item {
@@ -16,4 +18,17 @@
 
 .basket-item img {
     width: 15rem;
+    border: 1px solid;
+}
+
+.purchase-button {
+    font-size: 1.5rem;
+    padding: 1.25rem;
+    margin: 1.5rem;
+}
+
+.purchase-button-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
