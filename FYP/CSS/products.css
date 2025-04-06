@@ -7,9 +7,15 @@ h3 {
     text-align: center;
 }
 
-.popular-product-container {
+.whole-products-container-1 {
     display: flex;
     justify-content: center;
+}
+
+.whole-products-container-2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: line-through;
 }
 
 .product {
@@ -47,17 +53,21 @@ h3 {
 .text {
     display: block;
     margin: 1rem;
-    transform: translateY(-7.5rem);
+    transform: translateY(-2.5rem);
 }
   
 .product img {
-    width: 25rem;
-    height: 25rem;
+    width: 15rem;
+    height: 15rem;
     border: 1px solid;
 }
 
+.spacing {
+    margin: 7.5rem;
+}
+
 .purchase-button {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1.25rem;
     margin: 1.5rem;
 }
