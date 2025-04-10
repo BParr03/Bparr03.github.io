@@ -1,0 +1,13 @@
+.content {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 1.5rem;
+}

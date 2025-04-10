@@ -1,0 +1,15 @@
+.footer-container {
+    border-top: 1px groove;
+    text-align: center;
+    background-color: #d3d3d3;
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+}
+
+footer {
+    font-size: smaller;
+    text-align: center;
+    display: block;
+    padding: 1rem;
+}

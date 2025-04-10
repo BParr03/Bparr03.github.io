@@ -1,0 +1,34 @@
+.basket-container {
+    display: grid;
+    justify-items: start;
+    justify-content: center;
+}
+
+.basket-item {
+    display: flex;
+    height: 13.5rem;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.basket-item-detail {
+    margin: 0.5rem;
+    transform: translateY(-10%);
+}
+
+.basket-item img {
+    width: 15rem;
+    border: 1px solid;
+}
+
+.purchase-button {
+    font-size: 1.5rem;
+    padding: 1.25rem;
+    margin: 1.5rem;
+}
+
+.purchase-button-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

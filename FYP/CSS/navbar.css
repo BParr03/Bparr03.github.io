@@ -1,0 +1,16 @@
+.navbar a {
+  display: block;
+  color: #000000;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-decoration: none;
+  font-size: 0.75em;
+  float: left;
+}
+
+.navbar {
+  border-bottom: 1px groove;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
