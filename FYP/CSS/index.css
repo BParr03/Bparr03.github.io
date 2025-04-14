@@ -46,14 +46,15 @@ h3 {
 
 .text {
     display: block;
-    margin: 1rem;
-    transform: translateY(-7.5rem);
+    margin: 0.1rem;
+    text-align: center;
 }
   
 .product img {
     width: 25rem;
     height: 25rem;
     border: 1px solid;
+    margin: 1rem;
 }
 
 .purchase-button {
